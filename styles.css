@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 30px;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #003399;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rover22 {
+    width: 90%;
+    max-width: 800px;
+}
+
+.legenda {
+    margin: 10px 0 15px;
+    font-size: 14px;
+}
+
+.rodape {
+    background-color: #1b357e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+
+.sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sociais_subtitulo {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sociais_links {
+    width: 32px;
+    height: 32px;
+}
+
+.copyright img {
+    height: 30px;
+}
