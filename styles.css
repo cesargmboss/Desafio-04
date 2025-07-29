@@ -50,13 +50,13 @@ main {
 }
 
 .rodape {
-    background-color: #1b357e;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    flex-wrap: wrap;
+        padding: 10px 30px;
+        background-color: #1b357e;
+        color: white;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
 }
 
 .sociais {
@@ -75,6 +75,8 @@ main {
     height: 32px;
 }
 
-.copyright img {
-    height: 30px;
+.copyright {
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
