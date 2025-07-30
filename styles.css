@@ -94,3 +94,8 @@ main {
     justify-content: center;
     position: relative;
 }
+
+.video{
+  width: 1296px;
+  height: 729px;
+}
