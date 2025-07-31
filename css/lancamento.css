@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
@@ -22,6 +17,7 @@ main {
 }
 
 .video{
+  margin: auto;
   width: 840px;
   height: 460px;
 }
