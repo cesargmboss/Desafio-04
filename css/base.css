@@ -1,0 +1,65 @@
+body{
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+header img{
+    height: 50px;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #1351d8;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover{
+    color: #745cca;
+}
+
+footer {
+    padding: 10px 30px;
+    background-color: #1b357e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: auto;
+}
+
+footer img{
+    height: 35px;
+}
+.sociais{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.sociais h2 {
+    font-size: 18px;
+    }
+
+.copyright {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
