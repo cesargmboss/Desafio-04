@@ -1,25 +1,31 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-}
-
 main {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: left;
     margin-top: 20px;
 }
 
+.tabelacarros{
+  /* sfkakfkak */
+}
+
+.veiculo-card img{
+  transition: transform 0.3s ease;
+}
+
+.veiculo-card img:hover{
+  transform: scale(1.1);
+}
+
 .video{
-  margin: auto;
-  width: 840px;
-  height: 460px;
+  flex: 1;
+  min-width: 0;
+}
+
+.video iframe{
+  width: 90%;
+  height: 500px;
+  border-radius: 8px;
+  border: none;
 }
 
 .texto-destaque {
@@ -31,7 +37,7 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   line-height: 1.8;
   font-size: 18px;
-  color: #333;
+  color: #000;
 }
 
 .texto-destaque strong {
@@ -40,4 +46,14 @@ main {
 
 .texto-destaque strong:hover{
   color: #745cca;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table img{
+  margin-bottom: 10px;
 }
