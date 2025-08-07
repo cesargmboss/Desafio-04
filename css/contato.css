@@ -65,3 +65,15 @@ form {
     resize: none;
     font-family: Arial, sans-serif;
   }
+
+@media(max-width: 768px){
+  body{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .formulario{
+    width: 100%;
+    max-width: 100%;
+    padding: 0
+  }
+}

@@ -5,11 +5,22 @@ main {
 }
 
 .rover22 {
-    width: 90%;
-    max-width: 1500px;
+    max-width: 70%;
+}
+
+main p{
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0 20px;
 }
 
 .legenda {
     margin: 10px 0 15px;
     font-size: 14px;
+}
+
+@media(max-width: 768px){
+    main p{
+        font-size: 14px;
+    }
 }
