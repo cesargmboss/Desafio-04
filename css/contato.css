@@ -44,13 +44,15 @@ form {
     color: white;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease, background-color 0.3s ease;
   }
   
   form button:hover {
-    transform: scale(1.05);
-    background-color: #0055cc;
+    transform: translateY(-2px);
+    color: white;
+    background-color: #00274C;
   }
   
   .imagem-formulario {
